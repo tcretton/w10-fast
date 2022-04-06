@@ -1,6 +1,7 @@
 ## Passo a passo para Windows Rápido e Seguro
 ## **1 - Analise & Repair - HD & SSD** ##
 - [Western Digital Data LifeGuard](https://support.wdc.com/downloads.aspx?p=3&lang=en&i)
+- [Western Digital Dashboard](https://support.wdc.com/downloads.aspx?lang=en&p=279)
 - Chkdsk
 ```
 CHKDSK /R <Enter>
