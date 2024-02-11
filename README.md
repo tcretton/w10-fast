@@ -56,70 +56,60 @@ Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser e
 
 Windows Update
 
-`Winget upgrade`
-
-`winget upgrade --all`
+```
+Winget upgrade
+winget upgrade --all
+```
 
 ## 4 - Bloquear sites de download
 
 Edite o arquivo hosts que esta na pasta C:\Windows\System32\drivers\etc
 
-#IPv4
-
+```
+PIPv4
 127.0.0.1 www.baixaki.com.br
-
 127.0.0.1 baixaki.com.br
 
 127.0.0.1 superdownloads.com.br
-
 127.0.0.1 www.superdownloads.com.br
 
 127.0.0.1 superd.com.br
-
 127.0.0.1 www.superd.com.br
 
 127.0.0.1 ultradownloads.com.br
-
 127.0.0.1 www.ultradownloads.com.br
 
 127.0.0.1 download.com
-
 127.0.0.1 www.download.com
 
 127.0.0.1 softpedia.com
-
 127.0.0.1 www.softpedia.com
 
 127.0.0.1 softonic.com
-
 127.0.0.1 www.softonic.com
 
 # IPv6
 
 fe80::1%lo0 www.baixaki.com.br
-
 fe80::1%lo0 baixaki.com.br
 
 fe80::1%lo0 superdownloads.com.br
-
 fe80::1%lo0 www.superdownloads.com.br
 
 fe80::1%lo0 superd.com.br
-
 fe80::1%lo0 www.superd.com.br
 
 fe80::1%lo0 ultradownloads.com.br
-
 fe80::1%lo0 www.ultradownloads.com.br
 
 fe80::1%lo0 download.com
-
 fe80::1%lo0 www.download.com
 
 fe80::1%lo0 softpedia.com
-
 fe80::1%lo0 www.softpedia.com
 
 fe80::1%lo0 softonic.com
-
 fe80::1%lo0 www.softonic.com
+```
+
+fdss
