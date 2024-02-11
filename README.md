@@ -18,7 +18,7 @@ Western Digital Dashboard
 
 ### Chkdsk
 
-CHKDSK /F /R <Enter>
+`CHKDSK /F /R <Enter>`
 
 ### SFC
 
@@ -37,15 +37,18 @@ sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>`
 ## 2 - Clean & Remove - Bloatware, Adware, Malware
 
 Limpeza de Disco
-script-clean
-Adwcleaner
-Desinstalar programas desnecessários
-Verificação Tripla de Malware On Line TrendMicro Housecall - HouseCall KVRT Kapersky - KVRT ESET Online Scanner - ESET Scanner
-Instalar Antivirus Panda free ou Kapersky
-Bloquear Propaganda & URL Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
-Desfragmentar Defragler
-Script para apagar arquivos temporários - “Baboo”
-Fonte: Artigo Baboo.com.br
+
+- script-clean
+- Adwcleaner
+- Desinstalar programas desnecessários
+- Verificação Tripla de Malware On Line TrendMicro
+- Housecall - HouseCall KVRT Kapersky - KVRT ESET
+- Online Scanner - ESET Scanner
+- Instalar Antivirus Panda free ou Kapersky
+- Bloquear Propaganda & URL Ublock Origin / Ublock Extra / Traffic Light Bit Defender / Kapersky Protection - link / Windows Defender Browser Protection / MalwareBytes Browser Guard MalwareBytes
+- Desfragmentar Defragler
+- Script para apagar arquivos temporários - “Baboo”
+  Fonte: Artigo Baboo.com.br
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin. Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias. Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha: shutdown /t 30 /s
 
