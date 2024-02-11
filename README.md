@@ -1,4 +1,4 @@
-# Scripts e dicas para Windows fast & secure - [**Baboo**](baboo.com.br)
+# Scripts e dicas para Windows Fast & Secure - [**Baboo**](baboo.com.br)
 
 [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
