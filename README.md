@@ -2,28 +2,37 @@
 
 [Artigo completo](https://www.baboo.com.br/windows-10/conteudo-essencial-windows/script-que-substitui-o-ccleaner/)
 
-Scripts e dicas para manter o Windows, rápido e seguro. Compiladas do curso Windows rápido e seguro "Baboo"
+Scripts e comandos para manter o Windows, rápido e seguro. Compiladas do curso Windows rápido e seguro "Baboo"
 
-- Script para apagar arquivos temporários
-  Script substitui o CCleaner, não apaga cookies, nem histórico e senhas, deve ser executado via Prompt de Comando (Admin).
-  Também pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal é rodar a cada 15 dias.
-  Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: `shutdown /t 30 /s`
+Script para apagar arquivos temporários, substitui o CCleaner, não apaga cookies, nem histórico e senhas, deve ser executado via Prompt de Comando (Admin).
+
+Pode ser executado via Agendador de Tarefas, funciona por usuário, ele não apaga os arquivos temporários de outros usuários, o ideal é rodar a cada 15 dias.
+
+Se você quiser executar o script e logo em seguida desligar automaticamente o computador, antes do final do script adicione a linha: `shutdown /t 30 /s`
 
 # Passo a passo para Windows Rápido e Seguro
 
 ## 1 - Analise & Repair - HD & SSD
 
-Western Digital Data LifeGuard
 Western Digital Dashboard
-Chkdsk
-CHKDSK /R <Enter>
-SFC Online
-SFC /Scannow <Enter>
-SFC Off-line Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora… Solução de Problemas > Opções Avançadas > Prompt de Comando… Informe Login e Senha:
-BCDEDIT
-sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>
-Dism
-DISM /Online /Cleanup-image /Restorehealth <Enter>
+
+### Chkdsk
+
+CHKDSK /F /R <Enter>
+
+### SFC
+
+`SFC /Scannow <Enter>`
+
+SFC Off-line Configurações > Atualização e Segurança > Recuperação > Reiniciar Agora… Solução de Problemas > Opções Avançadas > Prompt de Comando…
+Informe Login e Senha:
+
+`BCDEDIT
+sfc /scannow /offbootdir=C:\ /offwindir=C:\windows <Enter>`
+
+### Dism
+
+`DISM /Online /Cleanup-image /Restorehealth <Enter>`
 
 ## 2 - Clean & Remove - Bloatware, Adware, Malware
 
@@ -40,7 +49,15 @@ Fonte: Artigo Baboo.com.br
 
 Script substitui o CCleaner, não apaga cookies, histórico e senhas, deve ser executado como Admin. Pode ser executado via Agendador de Tarefas, funciona por usuário, é ideal rodar a cada 15 dias. Se quiser executar o script e logo em seguida desligar automaticamente, antes do final do script adicione a linha: shutdown /t 30 /s
 
-## 3 - Bloquear sites de download
+## 3 - Atualizar programas
+
+Windows Update
+
+`Winget upgrade`
+
+`winget upgrade --all`
+
+## 4 - Bloquear sites de download
 
 Edite o arquivo hosts que esta na pasta C:\Windows\System32\drivers\etc
 
